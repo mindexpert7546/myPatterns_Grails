@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    width: 96%;
+    margin:auto;
+    background-color: #f0f0f0;
+}
+
+/* header code start here  */
+#header{
+    width: 100%;
+    min-height: 75px;
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    color: white;
+    
+}
+  
+
+#logo-div{
+    width: 25%;
+    min-height: 75px;
+    line-height: 75px;
+    padding-left: 2%;
+    font-size: 18px;
+   
+}
+
+#logo-div .myLogo{
+    width: 52px;
+    min-height: 38px;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+#nav-div{
+    width: 75%;
+    min-height: 75px;
+    line-height: 75px;
+}
+
+#nav-div a {
+    display: inline-block;
+    min-height: 50px;
+    width: 25%;
+    float: right;
+    line-height: 75px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#nav-div a:hover
+{
+    text-decoration: underline;
+}
+
+.my-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  /* Style for the text field */
+  .my-text-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* Style for the submit button */
+  .my-submit-button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Style for the submit button on hover */
+  .my-submit-button:hover {
+    background-color: #0056a6;
+  }
+
+
+/* pattern css code  */
+#patterns-content{
+    width: 60%;
+    margin: auto;
+}
+
+
+#patterns {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  /* Style for the pattern content */
+  .pattern {
+    font-size: 24px;
+    color: #0074d9;
+  }
+
+  #patterns h1{
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+    background: cyan;
+    color: black;
+    font-size: 20px;
+  }
+
+/* footer code  */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content {
+    font-size: 14px;
+}
+
+
+/* code for media quries */
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    #header {
+        flex-direction: column;
+    }
+
+    #logo-div {
+        width: 100%;
+        min-height: auto;
+    }
+
+    #logo-div .myLogo {
+        width: 100%;
+    }
+
+    #nav-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    #nav-div a {
+        width: 100%;
+        display: block;
+        float: none;
+    }
+
+    .my-form {
+        max-width: 100%;
+    }
+}

@@ -137,7 +137,7 @@ class PatternsController {
 
         for(int i in 1..input*2){
             for(int j=1; j<=sp; j++){
-                pattern+="&nbsp;&nbsp;"
+                pattern+="&nbsp;"
             }
 
             for(int j in 1..st){
